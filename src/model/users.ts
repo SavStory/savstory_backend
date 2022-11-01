@@ -20,7 +20,8 @@ export const userSchema = new Schema({
                 // - does not contain some crazy number
         },
         loginUser: (userInfo: LoginUserInfo) => {
-            
+            // TODO - validate the input field
+            // login the user and store the authentication in the folder
         }
     }
 })
