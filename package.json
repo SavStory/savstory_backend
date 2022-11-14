@@ -20,13 +20,18 @@
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "chalk": "4.1.2",
+    "concurrently": "^7.5.0",
     "dotenv": "^16.0.3",
     "eslint": "^8.27.0",
     "mongoose": "^6.7.0",
     "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "",
+    "start": "node dist/src/app.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\""
   }
 }
