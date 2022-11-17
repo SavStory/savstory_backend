@@ -23,7 +23,7 @@
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "mongoose": "^6.7.0",
+    "mongoose": "^6.7.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
