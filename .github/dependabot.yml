@@ -7,4 +7,4 @@ updates:
       - zt4ff
     rebase-strategy: auto
     schedule:
-      interval: daily
+      interval: monthly
