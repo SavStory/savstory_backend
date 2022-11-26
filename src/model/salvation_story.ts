@@ -11,7 +11,7 @@ export const salvationSttorySchema = new Schema(
   },
   {
     statics: {
-      getSalvationStory(userID) {
+      getSalvationStory() {
         // TODO - using the user ID, get the salvation story of the user
       },
 
