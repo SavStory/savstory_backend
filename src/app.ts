@@ -5,7 +5,6 @@ import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 import logger from 'morgan'
 import cors, { CorsOptions } from 'cors'
-import users from './routes/user'
 import bodyParser from 'body-parser'
 
 dotenv.config()
@@ -18,14 +17,10 @@ const corOptions: CorsOptions = {
   origin: '*'
 }
 
-// middlewares
 app.use(logger('dev'))
 app.use(cors(corOptions))
 app.use(express.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-
-// routes
-app.use('/api', users)
 
 async function main() {
   if (process.env.CONNECTION_STRING) {

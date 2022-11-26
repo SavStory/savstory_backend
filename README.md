@@ -1,11 +1,8 @@
 # Salvation Story Platform
 
--- TODO - url here
-
 ## Getting Started
 
 To get started with development, run the following commands
--- TODO - create sample credentials for database tests or a docker to be able to do it
 
 ```bash
     yarn install
@@ -15,6 +12,19 @@ Start the application as well as the build process in `watch` mode
 
 ```bash
     yarn dev
+```
+
+## Initialize Sample Database
+
+You need to initialize a sample database for development. There's a file, `src/helpers/populate_db.ts` that populates a Mongodb instance if you want to create a local one in your machine.
+
+We have MongoDB Cluster available. You can ask @zt4ff for the connection URL.
+
+Once you have a database connection URL, either the one you created or the one gotten from us, create a `.env` file in the root directory of this project and insert the connect string.
+
+```txt
+PORT=3000
+CONNECTION_STRING=<connection_url>
 ```
 
 ## Contributors
