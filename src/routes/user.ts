@@ -1,6 +1,6 @@
 import express from 'express'
 import { User } from '../model/index'
-import { expressjwt } from 'express-jwt'
+// import { expressjwt } from 'express-jwt'
 const route = express.Router()
 
 // login user
@@ -37,6 +37,6 @@ route.post('/register', async (req, res) => {
   }
 })
 
-route.get('/:user_id', () => {})
+// route.get('/:user_id', () => {})
 
 export default route

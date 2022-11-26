@@ -3,6 +3,7 @@
 -- TODO - url here
 
 ## Getting Started
+
 To get started with development, run the following commands
 -- TODO - create sample credentials for database tests or a docker to be able to do it
 
