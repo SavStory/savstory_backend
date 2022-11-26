@@ -1,13 +1,18 @@
 import { Schema } from 'mongoose'
 
-export const salvationSttorySchema = new Schema(
+export interface ISalvationStory {
+  author: string
+  body: string
+  date_of_salvation: Date
+  venue: string
+}
+
+export const salvationSttorySchema = new Schema<ISalvationStory>(
   {
     author: String, // string to the user id
     body: String,
-    likes: Number,
     date_of_salvation: Date,
-    venue: String,
-    comments: [{ body: String, date: Date }]
+    venue: String
   },
   {
     statics: {
