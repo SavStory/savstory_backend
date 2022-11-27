@@ -1,5 +1,7 @@
 # Salvation Story Platform
 
+- TODO - add description
+
 ## Getting Started
 
 To get started with development, run the following commands
