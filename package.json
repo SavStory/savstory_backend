@@ -20,7 +20,7 @@
     "chalk": "5.2.0",
     "concurrently": "^7.6.0",
     "dotenv": "^16.0.3",
-    "eslint": "^8.28.0",
+    "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "mongoose": "^6.7.5",
