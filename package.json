@@ -9,7 +9,7 @@
     "express": "^4.18.2",
     "express-jwt": "^8.2.1",
     "mongodb": "^4.12.1",
-    "zod": "^3.20.2"
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
