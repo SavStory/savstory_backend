@@ -28,7 +28,7 @@
     "nodemon": "^3.1.4",
     "prettier": "^3.2.5",
     "typescript": "^5.5.2",
-    "husky": "^9.0.7"
+    "husky": "^9.1.4"
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
